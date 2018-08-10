@@ -1,6 +1,5 @@
 <?php
-
-define('APPLICATION_PATH', dirname(__FILE__));
+define('APPLICATION_PATH', dirname(__FILE__).'/../');
 try{
 $application = new Yaf_Application( APPLICATION_PATH . "/conf/application.ini");
 }catch(Exception $e){
